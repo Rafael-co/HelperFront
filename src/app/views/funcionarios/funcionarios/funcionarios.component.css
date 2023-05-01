@@ -1,0 +1,28 @@
+.container-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.perfil {
+    margin-top: 10px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.loading-spinner {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-mat-form-field {
+    display: contents;
+}

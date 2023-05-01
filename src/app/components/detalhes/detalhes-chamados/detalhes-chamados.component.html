@@ -1,0 +1,41 @@
+<div class="dialog-container">
+    <div class="btn-details">
+        <button mat-icon-button mat-dialog-close>
+            <i class="material-icons">close</i>
+        </button>
+    </div>
+
+    <div>
+        <h3>
+            {{chamado.titulo}}
+        </h3>
+
+        <span class="details-chamados">
+            <strong>Id: </strong>{{chamado.idChamado}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Descrição: </strong>{{chamado.descricao}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Cliente: </strong>{{chamado.cliente.nome}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Funcionário: </strong>{{chamado.funcionario.nome}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Data de Abertura: </strong>{{chamado.dataAbertura}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Data de Fechamento: </strong>{{chamado.dataFechamento}}
+        </span>
+
+        <span class="details-chamados">
+            <strong>Status: </strong>{{chamado.status}}
+        </span>
+    </div>
+</div>
